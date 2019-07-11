@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "van-rate": "/vant-weapp/rate/index"
+  },
+  "navigationBarTitleText": "游客们说"
+}

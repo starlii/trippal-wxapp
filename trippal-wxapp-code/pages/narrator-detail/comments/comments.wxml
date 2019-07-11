@@ -1,0 +1,19 @@
+<import src="../tpls/comment-item.wxml" />
+
+<view class="page">
+  <view class='cell'></view>
+  <view class='comment'>
+    <view class='comment-header'>
+      <view class='flex f-align-center'>
+        <text class='middle mr-20'>游客们评价</text>
+        <van-rate color="#fe7b33" readonly value="{{ 5 }}" />
+        <text class='mini2 orange'>99%好评</text>
+      </view>
+      <text class="mini2 regular">全部评论18条</text>
+    </view>
+    <template is="comment-item" data="{{IMAGE_ADDR}}" />
+    <template is="comment-item" data="{{IMAGE_ADDR}}" />
+    <template is="comment-item" data="{{IMAGE_ADDR}}" />
+  </view>
+   <view class="buynow" bindtap='handleBuy'>立即购买</view>
+</view>

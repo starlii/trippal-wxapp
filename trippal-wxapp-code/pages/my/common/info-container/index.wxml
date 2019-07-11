@@ -1,0 +1,3 @@
+<view class='my-info__wechat' style="height:{{height + 'rpx' }}">
+  <slot></slot>
+</view>

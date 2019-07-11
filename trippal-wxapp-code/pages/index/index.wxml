@@ -1,0 +1,57 @@
+<import src="./tpls/scenic-item/index.wxml" />
+
+<view class='page'>
+  <view class='search-bar'>
+      <!-- <view bindtap='handleAddress'>
+        <text class="search-bar__address">{{ad_info.city}}</text>
+        <image class="list_address" src="/imgs/list_adress.png" />
+      </view> -->
+      <search-input class="search-input" />
+      <image class="scan-btn" src="/imgs/scan_bt.png" bindtap='handleScan' />
+  </view>
+
+  <swiper class="swiper" autoplay="{{autoplay}}">
+    <block wx:for="{{ imgUrls }}" wx:key="{{ item }}">
+      <swiper-item>
+        <image src="{{ IMAGE_ADDR + '' + item.imageUrl }}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  
+  <view class='cell'>
+   <cell-title title="热门地区" />
+    <view class="citys">
+      <view class="city-content" wx:for="{{hotList}}" wx:for-item="row" wx:key="id"> 
+            <text wx:for="{{row}}" wx:for-item="city"  wx:key="city.hotCityId" data-index="{{index}}" bindtap='handleHotCity'>{{city.cityName}}</text> 
+      </view>
+    </view>
+    <view class='hot-btn' bindtap='handleAddress'>
+      <image src="/imgs/add_white.png" class='icon-img' />
+      {{ad_info.city}}
+    </view>
+  </view>
+
+  <view class='cell'>
+    <cell-title title="热门景区" />
+
+    <block wx:for="{{scenicList}}" wx:key="{{ item.zoneId}}">
+      <template is="scenic-item" data="{{...item, IMAGE_ADDR}}" />
+    </block>
+
+    
+   
+    <view class="more" bindtap='getMoreScenic'>更多景区</view>
+  </view>
+
+  <view class='cell'>
+    <cell-title title="热门解说" />
+    <narrator-item isAlbum="{{true}}"/>
+    <narrator-item isAlbum="{{true}}"/>
+    <narrator-item isAlbum="{{true}}"/>
+    <narrator-item isAlbum="{{true}}"/>
+    <narrator-item isAlbum="{{true}}"/>
+    <view class="more">更多解说</view>
+  </view>
+
+</view>
+

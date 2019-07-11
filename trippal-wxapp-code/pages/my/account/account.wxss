@@ -1,0 +1,78 @@
+/* pages/account/account.wxss */
+@import '../common/common-tpls/index.wxss';
+
+.base_info {
+  color: #ffffff;
+  padding: 72rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box
+}
+
+.money {
+  color: #ffffff;
+  margin-bottom: 40rpx;
+  font-weight: bold;
+  display: flex;
+  align-items: center
+}
+.money-flag {
+  font-size: 36rpx;
+  margin-right: 19rpx;
+  line-height: 48rpx;
+}
+.money_num {
+  font-size: 48rpx
+}
+
+.btn {
+  width: 214rpx;
+  height:64rpx;
+  text-align: center;
+  line-height: 64rpx;
+  border-radius: 32rpx;
+  background-color: #00ccb2;
+  color: #ffffff;
+  font-size: 30rpx;
+}
+
+.my-info__base {
+  height: 80rpx;
+  background-color: #1173e2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around
+}
+.my-base-item{flex: 1;text-align: center}
+.my-base-item+.my-base-item{
+  border-left: 1px solid #0156C3;
+}
+.info-title {font-size: 28rpx;color: #f3db7a}
+.info-intro {font-size: 24rpx;color: #cbe9f3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

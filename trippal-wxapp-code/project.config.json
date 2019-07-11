@@ -1,0 +1,132 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"nodeModules": false,
+		"autoAudits": false,
+		"checkInvalidKey": true
+	},
+	"compileType": "TripPal",
+	"libVersion": "2.2.5",
+	"appid": "wx290183ba9b14c93e",
+	"projectname": "TripPal",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 11,
+			"list": [
+				{
+					"id": -1,
+					"name": "login",
+					"pathName": "pages/login/login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "narrator-detail",
+					"pathName": "pages/narrator-detail/narrator-detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "comments",
+					"pathName": "pages/narrator-detail/comments/comments",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "coupon",
+					"pathName": "pages/my/coupon/coupon",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "scenic",
+					"pathName": "pages/scenic/scenic",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "my",
+					"pathName": "pages/my/my",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "account",
+					"pathName": "pages/my/account/account",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "my-narrate",
+					"pathName": "pages/my/my-narrate/narrate",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "sound-manage",
+					"pathName": "pages/my/my-narrate/sound-manage/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "add-sound",
+					"pathName": "pages/my/my-narrate/add-sound/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "add-album",
+					"pathName": "pages/my/my-narrate/add-album/index",
+					"scene": null
+				}
+			]
+		}
+	}
+}

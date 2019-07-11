@@ -1,0 +1,5 @@
+<template name="catalog">
+    <view class="catalog">
+        景区目录
+    </view>
+</template>

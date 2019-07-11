@@ -1,0 +1,78 @@
+@import "./tpls/intro/index.wxss";
+@import "./tpls/catalog/index.wxss";
+.swiper {
+  height: 350rpx;
+}
+
+.slide-image {
+  width: 100%;
+  height: 350rpx;
+}
+
+.position {
+  position: relative;
+}
+
+.position .share {
+  position:absolute;
+  right: 24rpx;
+  top: 24rpx;
+}
+
+.more-btn {
+  position: fixed;
+  width: 150rpx;
+  top: 60%;
+  right: 24rpx;
+  z-index: 101
+}
+.more-btn__context {
+  position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center
+}
+.transition-pre {
+  width: 130rpx;
+  height: 150rpx;
+}
+.transition{
+  display: flex;
+  flex-direction: column
+}
+.transition-item {
+  padding: 10rpx;
+  color: #ffffff;
+  background-color: #ff7b33;
+  border-radius: 12rpx;
+  text-align: center;
+}
+.transition-item+.transition-item{
+  margin-top: 24rpx
+}
+
+.issues-dialog {
+  padding: 10rpx;
+}
+.issues-field {
+  width: 100%;
+  color: #666666;
+  border: 1rpx solid #ebedf0;
+  
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+.issues-btn {
+  background-color: rgb(32,117, 253);
+  color: #ffffff;
+  width: 550rpx;
+  border-radius: 12px;
+  padding: 10rpx;
+  height: 72rpx;
+  line-height: 55rpx;
+  margin-bottom: 10rpx
+}
+
+
+
+

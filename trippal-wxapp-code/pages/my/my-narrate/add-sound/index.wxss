@@ -1,0 +1,31 @@
+.play {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  height: 240rpx;
+}
+
+.play-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.play-item:nth-child(2) {
+  margin: 0 96rpx;
+}
+
+.play-img:not(:nth-child(2)) {
+  width: 70rpx;
+  height: 70rpx;
+}
+.play-img:nth-child(2) {
+  width: 84rpx;
+  height: 84rpx;
+}
+
+.play-text {
+  margin-top: 16rpx;
+  font-size: 34rpx;
+  color: #666666;
+}

@@ -1,0 +1,33 @@
+/* components/search-input/index.wxss */
+.search-input {
+  margin-right: 20rpx;
+  position: relative;
+}
+
+.search-input__inner {
+  background-color: #ffffff;
+  padding-left: 78rpx;
+  border-radius: 8px;
+  height: 64rpx;
+}
+
+.search-input__prefix {
+  height: 100%;
+  line-height: 64rpx;
+  text-align: center;
+  transform: all .3s;
+  position: absolute;
+  left: 32rpx;
+  top:0;
+  color: #999999
+}
+.search-input__prefix image {
+  width: 26rpx;
+  height: 26rpx;
+  vertical-align: middle
+}
+
+.srach-input__placeholder {
+  color: #999999;
+  font-size: 26rpx;
+}

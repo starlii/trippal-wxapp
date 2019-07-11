@@ -1,0 +1,17 @@
+
+<page>
+  <view class='cell'></view>
+  <van-tabs>
+    <van-tab title="未上架专辑·6"></van-tab>
+    <van-tab title="已上架专辑·4"></van-tab>
+  </van-tabs>
+
+  <narrator-item showMoney="{{true}}" disable="{{true}}" isManage="{{true}}"/>
+  <narrator-item showMoney="{{true}}" disable="{{true}}" isManage="{{true}}"/>
+  <narrator-item showMoney="{{true}}" disable="{{true}}" isManage="{{true}}"/>
+
+  <opt-btn bindclick="handlerBtn" btnInfo="添加解说专辑"/>
+
+
+
+</page>

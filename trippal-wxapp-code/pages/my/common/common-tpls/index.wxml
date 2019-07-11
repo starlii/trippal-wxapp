@@ -1,0 +1,12 @@
+<template name="record"> 
+  <view class='record'>
+    <view class='record-info'>
+      <view  class='record-grade'>
+        {{index + 1}}
+      </view>
+      <image class='record-author' src="/imgs/headpic1.png" />
+      <text class='middle'>{{name}}</text>
+    </view>
+    <text class='record-money'>￥{{money}}</text>
+  </view>
+</template>

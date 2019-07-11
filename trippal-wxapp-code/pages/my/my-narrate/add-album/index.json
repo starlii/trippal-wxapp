@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "van-field": "/vant-weapp/field/index",
+    "van-cell-group": "/vant-weapp/cell-group/index", 
+    "van-cell": "/vant-weapp/cell/index",
+    "opt-btn": "../../common/opt-btn/index",
+    "field-picker": "/components/field-picker/index"
+  },
+  "navigationBarTitleText": "添加解说专辑"
+}

@@ -1,0 +1,5 @@
+<!--pages/index/tpls/cell-tile/index.wxml-->
+<view class="cell-title">
+  <image src="{{url}}" />
+  <text class='title'>{{title}}</text>
+</view>

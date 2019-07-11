@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "van-field": "/vant-weapp/field/index",
+    "van-cell-group": "/vant-weapp/cell-group/index", 
+    "van-cell": "/vant-weapp/cell/index", 
+    "van-icon": "/vant-weapp/icon/index",
+    "field-picker": "/components/field-picker/index"
+  }, 
+  "navigationBarTitleText": "金牌认证"
+}

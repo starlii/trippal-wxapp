@@ -1,0 +1,31 @@
+/**
+ * Created by Terry on 2019-04-30.
+ * 
+ */
+
+var moneyFormat = function (money) {
+  if (!(!money)) {
+    return money.toFixed(2)
+  } else {
+    return '0.00'
+  }
+}
+
+// 获取指定字符串按照分割符分割的数组项数
+var getArrayCnt = function (str, exp) {
+  var arr = str.split(exp)
+  return arr.length
+}
+
+// 获取指定字符串按照分割符分割的数组
+var getArray = function (str, exp) {
+  if (!str || str.trim() === '') return null
+  var arr = str.split(exp)
+  return arr
+}
+
+module.exports = {
+  moneyFormat: moneyFormat,
+  getArrayCnt: getArrayCnt,
+  getArray: getArray
+}

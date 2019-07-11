@@ -1,0 +1,26 @@
+<page>
+  <view class='cell'></view>
+
+  <van-cell-group>
+    <van-field value="{{ username }}" disabled required label="解说景点" icon="arrow" placeholder="请选择" bind:click-icon="onClickIcon" />
+
+    <van-field value="{{ password }}" disabled label="景点图片" icon="arrow" placeholder="请上传" bind:click-icon="onClickIcon" />
+  </van-cell-group>
+
+  <view class='play'>
+    <view class='play-item'>
+      <image class='play-img' src="/imgs/record_big_bt1.png" />
+      <text class='play-text'>重录</text>
+    </view>
+    <view class='play-item'>
+      <image class='play-img' src="/imgs/rerecording_pause_big_bt.png" />
+      <text class='play-text'>00:00</text>
+    </view>
+    <view class='play-item'>
+      <image class='play-img' src="/imgs/finish_big_bt.png" />
+      <text class='play-text'>完成</text>
+    </view>
+  </view>
+
+  <opt-btn bindclick="handlerBtn" />
+</page>

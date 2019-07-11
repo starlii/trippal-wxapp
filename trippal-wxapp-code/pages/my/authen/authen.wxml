@@ -1,0 +1,43 @@
+<view class="authen">
+  <van-cell-group>
+    <view class="flex f-align-centr field-item">
+      <view class='flex field-label'>
+        <text>金牌头像</text>
+        <text class="red">*</text>
+      </view>
+      <van-icon name="add-o" color="orange" size="40px"/>
+      <text class="info ml-10">建议上传真实头像</text>
+    </view>
+    <field-picker label="性别" required placeholder="男/女" index="{{index}}" bindchange='genderChange' />
+    <field-picker label="出生日期" required placeholder="请选择出生日期" />
+    <field-picker label="所在城市" required placeholder="" />
+    <van-field label="个人标签" placeholder="例如： 全国导游大赛一等奖" />
+
+    <view class="flex f-between field-textarea">
+      <text class="field-label">个人简介</text>
+      <textarea placeholder-class="place" class="authen-textarea"
+        placeholder='个人简介会展示给游客， 请务必真实有吸引力， 最多120个字'
+        maxlength="120"
+        />
+    </view>
+  </van-cell-group>
+
+  <view class="cell mt-10 background-white">
+  <view>
+    <text class='gray-darker'>上传身份证明(仅用于金牌解说)</text><text class="orange">*</text>
+  </view>
+  </view>
+  
+</view>,
+
+
+
+
+
+
+
+
+
+
+
+

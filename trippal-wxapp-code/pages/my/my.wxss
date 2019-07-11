@@ -1,0 +1,81 @@
+/* pages/my/my.wxss */
+.my-info {
+  background-color: #f8f8f8;
+  height: 100vh;
+}
+.my-message-container {
+  height: 66rpx;
+  width: 100%;
+  text-align: right;
+}
+
+.userinfo-avatar {
+  width: 118rpx;
+  height: 118rpx;
+  border-radius: 50%;
+  margin-right: 24rpx;
+  border: 4rpx solid #53a3fa;
+}
+
+.username {
+  color: #ffffff;
+  font-size: 30rpx;
+  margin-bottom: 24rpx;
+}
+.user-title {
+  color: #ffffff;
+  font-size: 24rpx;
+}
+
+.my-info__img {
+  width: 60rpx;
+  height: 60rpx
+}
+
+.info-line {
+  height: 102rpx;
+  width: 2rpx;
+}
+
+.my-info__base{
+  background-color: #1173e2;
+  padding: 20rpx 0 10rpx;
+  display: flex;
+  justify-content: space-around
+}
+.my-base-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+.my-base-item+.my-base-item {
+  border-left: 1px solid #0156C3;
+}
+.info-title {
+  color: #cbe9f3;
+  font-weight: bold;
+  margin-bottom: 15rpx;
+  font-size: 24rpx;
+}
+.info-intro {
+  font-size: 24rpx;
+  color: #ffffff;
+}
+
+.mr-28 {
+  margin-right: 28rpx;
+}
+.my-info_item{
+  padding: 15rpx 20rpx;
+}
+
+.my-info__group{
+  margin: 5rpx
+}
+
+.my-item {
+  color: #343434;
+  font-size: 30rpx
+}

@@ -1,0 +1,59 @@
+<!--pages/my/my.wxml-->
+<view class='my-info'>
+
+  <info-container> 
+     <view class="my-message-container">
+      <image class="icon-img--middle" src="/imgs/message_bt.png" />
+    </view>
+    <view class='flex  user-info'>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover" />
+      <view class="flex f-between" style="flex: 1">
+        <view class="flex f-column">
+          <text class="username">{{userInfo.nickName}}</text>
+          <text class="user-title">中国中央电视台节目主持人。</text>
+        </view>
+        <image class="icon-img" style="align-self: center" src="/imgs/moreinfo_bt.png" />
+      </view>
+    </view>
+  </info-container>
+
+
+  <view class=' my-info__base cell'>
+    <view class='my-base-item' bindtap="toAccount">
+      <text class="info-title">我的账户</text>
+      <text class="info-intro">0.0元</text>
+    </view>
+    <!-- <image class="info-line" src="/imgs/title_line.png" /> -->
+    <view class='my-base-item' bindtap='toNarrate'>
+      <text class="info-title">我的解说</text>
+      <text class="info-intro">4张</text>
+    </view>
+    <!-- <image class="info-line" src="/imgs/title_line.png" /> -->
+    <view class='my-base-item' bindtap='toBought'>
+      <text class="info-title">我的已购</text>
+      <text class="info-intro">0张</text>
+    </view>
+  </view>
+
+  <view class="mt-10">
+    <van-cell title-class="my-item" custom-class="cell" title="金牌认证" is-link url="/pages/my/authen/authen">
+      <image slot="icon" class="icon-img--middle mr-28" src="/imgs/goldcert_ico.png" />
+    </van-cell>
+    <van-cell my-item title="我的优惠券" custom-class="cell" is-link url="/pages/my/coupon/coupon">
+      <image slot="icon" class="icon-img--middle mr-28" src="/imgs/coupon_ico.png" />
+    </van-cell>
+    <van-cell my-item title="收听历史" custom-class="cell" is-link url="/pages/my/history/history">
+      <image slot="icon" class="icon-img--middle mr-28" src="/imgs/history_ico.png" />
+    </van-cell>
+    <van-cell my-item title="我的评论" custom-class="cell" is-link url="/pages/my/comment/comment">
+      <image slot="icon" class="icon-img--middle mr-28" src="/imgs/comment_ico.png" />
+    </van-cell>
+    <van-cell my-item title="意见反馈" custom-class="cell" is-link bind:click="bindFeedback">
+      <image slot="icon" class="icon-img--middle mr-28" src="/imgs/Feedback_ico.png" />
+    </van-cell>
+    <van-cell my-item title="版权说明" custom-class="cell" is-link url="/pages/my/copyright/copyright">
+      <image slot="icon" class="icon-img--middle mr-28" src="/imgs/version_ico.png" />
+    </van-cell>
+  </view>
+
+</view>

@@ -1,0 +1,112 @@
+@import "./tpls/scenic-item/index.wxss";
+
+.swiper {
+  width: 100%;
+  height: 300rpx;
+  margin-bottom: 20rpx;
+}
+
+.slide-image {
+  width: 100%;
+  height: 300rpx;
+  border-radius: 4px;
+}
+
+.search-bar {
+  background-color: #268dfe;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rpx 30rpx 4rpx 24rpx;
+}
+
+.list_address {
+  width: 20rpx;
+  height: 20rpx;
+}
+.search-bar__address {
+ color: #ffffff;
+ margin-right: 12rpx;
+ font-size: 30rpx;
+}
+
+.search-input {
+  flex: 1
+}
+
+.scan-btn {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.swiper-citys {
+  width: 100%;
+  max-height: 198rpx;
+  min-height: 80rpx;
+}
+
+.citys {
+  padding: 24rpx 24rpx 0;
+  background-color: #ffffff;
+}
+
+.city-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.citys text {
+  display: inline-block;
+  height: 60rpx;
+  width: 130rpx;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 30rpx;
+  color: #6f7b87;
+  background-color: #f6f6f6;
+  margin-bottom: 24rpx;
+  border-radius: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.citys text+text{
+  margin-left: 13rpx
+}
+
+.hot-btn {
+  margin: 0 auto 25rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  background-color: #ff7b33;
+  color: #ffffff;
+  font-size: 36rpx;
+  width: 220rpx;
+  text-align: center;
+  border-radius: 35rpx;
+}
+
+.citys .active {
+  background-color: #42b7fd;
+  color: #ffffff;
+}
+
+.hot-footer {
+  background-color: #ffffff;
+  padding-bottom: 24rpx;
+}
+.hot-footer image {
+  width: 24px; 
+  height: 3px;
+}
+
+.more {
+  height: 72rpx;
+  line-height: 72rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color: #343434;
+  background-color: #ffffff
+}
+
+

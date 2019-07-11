@@ -1,0 +1,295 @@
+<import src="./tpls/comment-item.wxml" />
+
+<view class='page'>
+  <view class='cell'>
+    <narrator-item disable="{{true}}" isAlbum="{{true}}" showMoney="{{true}}"/>
+  </view>
+
+  <view class='audio'>
+    <view class='audio-scenic'>
+      <view class='scenic-header'>
+        <image class='icon-img-n' src="/imgs/add.png" />
+        <text class=' ml-5 middle'>景区大门</text>
+      </view>
+      <view class='scenic-content'>
+        <view>
+          <view class='audio-item'>
+            <image src="{{ IMAGE_ADDR + '30f335445ac365b3b7bc632a48f5e7ba.jpg' }}" class='audio-img'/>
+            <view class='play-info'>
+              <view class='flex f-align-center'>
+                <image src="/imgs/explain3.png" class='icon-img' />
+                <text>10:10</text>
+              </view>
+              <image src="/imgs/play.png" class='icon-img--middle play' />
+            </view>
+          </view>
+          <view class='scenic-name'>世界广场</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+
+  <view class='audio'>
+    <view class='audio-scenic'>
+      <view class='scenic-header'>
+        <image class='icon-img-n' src="/imgs/add.png" />
+        <text class=' ml-5 middle'>景区大门</text>
+      </view>
+      <view class='scenic-content'>
+        <view>
+          <view class='audio-item'>
+            <image src="{{ IMAGE_ADDR + '30f335445ac365b3b7bc632a48f5e7ba.jpg' }}" class='audio-img'/>
+            <view class='play-info'>
+              <view class='flex f-align-center'>
+                <image src="/imgs/explain3.png" class='icon-img' />
+                <text>10:10</text>
+              </view>
+              <image src="/imgs/play.png" class='icon-img--middle play' />
+            </view>
+          </view>
+          <view class='scenic-name'>世界广场</view>
+        </view>
+
+        <view>
+          <view class='audio-item'>
+            <image src="{{ IMAGE_ADDR + '30f335445ac365b3b7bc632a48f5e7ba.jpg' }}" class='audio-img'/>
+            <view class='play-info'>
+              <view class='flex f-align-center'>
+                <image src="/imgs/explain3.png" class='icon-img' />
+                <text>10:10</text>
+              </view>
+              <image src="/imgs/play.png" class='icon-img--middle play' />
+            </view>
+          </view>
+          <view class='scenic-name'>世界广场</view>
+        </view>
+
+      </view>
+    </view>
+  </view>
+
+  <view class='audio'>
+    <view class='audio-scenic'>
+      <view class='scenic-header'>
+        <image class='icon-img-n' src="/imgs/add.png" />
+        <text class=' ml-5 middle'>景区大门</text>
+      </view>
+      <view class='scenic-content'>
+        <view>
+          <view class='audio-item'>
+            <image src="{{ IMAGE_ADDR + '30f335445ac365b3b7bc632a48f5e7ba.jpg' }}" class='audio-img'/>
+            <view class='play-info'>
+              <view class='flex f-align-center'>
+                <image src="/imgs/explain3.png" class='icon-img' />
+                <text>10:10</text>
+              </view>
+              <image src="/imgs/play.png" class='icon-img--middle play' />
+            </view>
+          </view>
+          <view class='scenic-name'>世界广场</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+
+  <view class='audio'>
+    <view class='audio-scenic'>
+      <view class='scenic-header'>
+        <image class='icon-img-n' src="/imgs/add.png" />
+        <text class=' ml-5 middle'>景区大门</text>
+      </view>
+      <view class='scenic-content'>
+        <view>
+          <view class='audio-item'>
+            <image src="{{ IMAGE_ADDR + '30f335445ac365b3b7bc632a48f5e7ba.jpg' }}" class='audio-img'/>
+            <view class='play-info'>
+              <view class='flex f-align-center'>
+                <image src="/imgs/explain3.png" class='icon-img' />
+                <text>10:10</text>
+              </view>
+              <image src="/imgs/play.png" class='icon-img--middle play' />
+            </view>
+          </view>
+          <view class='scenic-name'>世界广场</view>
+        </view>
+
+        <view>
+          <view class='audio-item'>
+            <image src="{{ IMAGE_ADDR + '30f335445ac365b3b7bc632a48f5e7ba.jpg' }}" class='audio-img'/>
+            <view class='play-info'>
+              <view class='flex f-align-center'>
+                <image src="/imgs/explain3.png" class='icon-img' />
+                <text>10:10</text>
+              </view>
+              <image src="/imgs/play.png" class='icon-img--middle play' />
+            </view>
+          </view>
+          <view class='scenic-name'>世界广场</view>
+        </view>
+
+         <view>
+          <view class='audio-item'>
+            <image src="{{ IMAGE_ADDR + '30f335445ac365b3b7bc632a48f5e7ba.jpg' }}" class='audio-img'/>
+            <view class='play-info'>
+              <view class='flex f-align-center'>
+                <image src="/imgs/explain3.png" class='icon-img' />
+                <text>10:10</text>
+              </view>
+              <image src="/imgs/play.png" class='icon-img--middle play' />
+            </view>
+          </view>
+          <view class='scenic-name'>世界广场</view>
+        </view>
+
+      </view>
+    </view>
+  </view>
+
+
+
+  <view class='reward cell'>
+    <view class='reward-title'>
+      <text>20人打赏</text>
+      <image src="{{ IMAGE_ADDR + 'd5dfc08b62d8ae1cf4df4f0121340ab5.jpg' }}" class='icon-img--lg' />
+    </view>
+    <view class='reward-btn' bindtap='handleBuy'>
+      打赏
+    </view>
+  </view>
+
+
+  <view class='comments cell'>
+    <view>
+      <view class='comment-header'>
+        <view>
+          <text class='middle2'>其他游客说</text>
+          <text class='mini4 ml-20'>( 18 )</text>
+        </view>
+        <view class='flex f-align-center'>
+          <text>好评</text>
+          <text class="orange mr-10">99%</text>
+          <image src="/imgs/iocn_more.png" class='icon-img' bindtap='handleAllComment' />
+        </view>
+      </view>
+
+      <template is="comment-item" data="{{IMAGE_ADDR}}" />
+      <template is="comment-item" data="{{IMAGE_ADDR}}" />
+      <template is="comment-item" data="{{IMAGE_ADDR}}" />
+
+      <view class='flex f-center comment-opt mt-15'>
+        <view class='mr-30 btn btn-border' bindtap='handleAllComment'>查看全部</view>
+        <view class='btn btn-back' bindtap="handleComment">我要评论</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- <view class="buynow" bindtap='handleBuy'>
+    立即购买
+  </view> -->
+
+  <view class="album">
+    <image class="album-img" src="{{ IMAGE_ADDR + 'd5dfc08b62d8ae1cf4df4f0121340ab5.jpg' }}" />
+
+    <view class='album-info'>
+      <text class='mini4'>世界广场</text>
+
+      <view class='flex'>
+        <slider class='slider' value="{{40}}" style='width: 298rpx' activeColor="#268dfe" backgroundColor="#b5b6b5" bindchange="slider3change" block-size="15" />
+        <text class='ml-20 text-color'>2:18</text>
+      </view>
+    </view>
+
+    <view class='flex f-column' style="margin-left: 90rpx; margin-right: 48rpx">
+      <image class='avator-img' src="/imgs/next.png" />
+      <text>下一站</text>
+    </view> 
+    <view class='flex f-column'>
+      <image class='avator-img' src="/imgs/shang2.png" />
+      <text>打赏</text>
+    </view>
+  </view>
+
+  <van-dialog
+    use-slot
+    show="{{ showBuy }}"
+    show-cancel-button="{{false}}"
+    show-confirm-button="{{false}}"
+    close-on-click-overlay="{{true}}"
+    bindclose="handleBuyClose"
+    class-name="dialog-custom-name"
+    >
+    <view class='dialog-content'>
+      <image src="{{ IMAGE_ADDR + '05cd55a91b3956acf695f672d7b05343.png' }}" class="dialog-avator__img" />
+      <text class='dialog-avator__name'>张小游</text>
+      <text class='avator__title'>好声音陪您游世界之窗</text>
+      <i-divider i-class="dilog-devider" color="#ed3f14" lineColor="#ed3f14">共有<text class='buyNum'>10</text>人打赏</i-divider>
+
+      <view class='dialog-img-list'>
+        <image src="{{ IMAGE_ADDR + 'f0f746fe8837bace63a44dba7e0ed3b4.png' }}" />
+        <image src="{{ IMAGE_ADDR + 'f0f746fe8837bace63a44dba7e0ed3b4.png' }}" />
+        <image src="{{ IMAGE_ADDR + 'f0f746fe8837bace63a44dba7e0ed3b4.png' }}" />
+        <image src="{{ IMAGE_ADDR + 'f0f746fe8837bace63a44dba7e0ed3b4.png' }}" />
+        <image src="{{ IMAGE_ADDR + 'f0f746fe8837bace63a44dba7e0ed3b4.png' }}" />
+        <image src="{{ IMAGE_ADDR + 'f0f746fe8837bace63a44dba7e0ed3b4.png' }}" />
+      </view>
+
+      <view class='price-list'>
+        <view class='price-item'> <text>￥</text> <text>2</text> </view>
+        <view class='price-item'> <text>￥</text> <text>8</text> </view>
+        <view class='price-item'> <text>￥</text> <text>10</text> </view>
+        <view class='price-item active'> <text>￥</text> <text>20</text> </view>
+        <view class='price-item'> <text>￥</text> <text>100</text> </view>
+        <view class='price-item'> <text>￥</text> <text>200</text> </view>
+      </view>
+
+      <view class='custom-price'>
+        <text class='middle'>其他金额:</text>
+        <input class='custom-price__input' type="number" placeholder='土豪请随意'/>
+      </view>
+  
+      <view class='dialog-buy__btn'>立即打赏8元</view>
+    </view>
+
+  </van-dialog>
+
+  <van-dialog
+    use-slot
+    show="{{showComment}}"
+    show-cancel-button="{{false}}"
+    show-confirm-button="{{false}}"
+    close-on-click-overlay="{{true}}"
+    bindclose="handleCommentClose"
+    class-name="dialog-custom-name"
+    >
+    <view class='dialog-comment__header'>
+        <image src="{{ IMAGE_ADDR + '05cd55a91b3956acf695f672d7b05343.png' }}" class="dialog-avator__img" />
+        <view class='flex f-column f-between ml-20'>
+        <text class='middle mb-15'>评分</text>
+        <van-rate color="#fe7b33" readonly value="{{ 4 }}" />
+        </view>
+    </view>  
+
+    <textarea 
+      class="comment-textarea" 
+      placeholder-style="color: #999999; font-size: 24rpx" 
+      maxlength="140" 
+      show-confirm-bar="{{true}}" 
+      placeholder="觉得很棒吧~可以评价哦，说说你的感受，对其他小伙伴帮助很大哦~" 
+    />
+
+    <view style='padding: 30rpx 0'>
+      <block wx:for="{{updateFiles}}" wx:key="{{index}}">
+      <view class='upload-content'>
+        <image wx:for="{{item}}" wx:for-item="img" wx:key="{{img}}" class="upload-img" src="{{img}}" data-src="{{img}}" bindtap='handleUpload'/>
+      </view>
+    </block>
+    </view>  
+
+    <view class='dialog-buy__btn'>发表评论</view>
+  </van-dialog>
+
+
+</view>
+

@@ -1,0 +1,41 @@
+.comment-list {
+  border-bottom: 2px solid #f6f6f6;
+  padding: 24rpx 23rpx
+}
+
+.reply {
+  background-color: #f6f6f6;
+  padding: 20rpx 24rpx;
+}
+.comment-item_imgs {
+  padding-top:20rpx; 
+  display: flex;
+  flex-wrap: wrap;
+}
+.comment-item_imgs image {
+  width: 124rpx;
+  height: 124rpx;
+}
+.comment-item_imgs image+image {
+  margin-left: 20rpx
+}
+
+.comment-text{
+  padding: 24rpx;
+  background-color: #ffffff;
+  border-radius: 12px;
+   position: relative;
+}
+
+.triangle {
+    display: block;
+    height: 20rpx;
+    width: 20rpx;
+    background-color: inherit;
+    border: inherit;
+    position: absolute;
+    top: -10rpx;
+    left: calc(10%);
+    clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+    transform: rotate(135deg);
+}

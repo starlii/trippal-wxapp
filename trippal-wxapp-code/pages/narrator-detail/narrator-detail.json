@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "narrator-item": "/components/narrator-item/index", 
+    "van-rate": "/vant-weapp/rate/index", 
+    "van-progress": "/vant-weapp/progress/index", 
+    "van-dialog": "/vant-weapp/dialog/index", 
+    "i-divider": "/components/devider/index", 
+    "van-icon": "/vant-weapp/icon/index"
+  }
+}

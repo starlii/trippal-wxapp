@@ -1,0 +1,22 @@
+<page>
+  <view class='cell'></view>
+  <van-cell-group>
+    <van-field value="{{ }}" required label="专辑名称" placeholder="请填写" />
+    <van-field type="number" value="{{ }}" required label="专辑售价" placeholder="填写售价" />
+    <van-field value="{{  }}" required disabled label="专辑景区" placeholder="请选择景区" icon="arrow" bindfocus="handlezone" />
+    <van-field value="{{  }}" label="专辑封面" disabled placeholder="请上传" icon="arrow" />
+     <field-picker label="出生日期" placeholder="请选择出生日期" />
+  </van-cell-group>
+   
+  <van-cell title="专辑标签" border="{{false}}"/>
+  <view class='tagList'>
+      <text class='tag active'>中文版</text>
+      <text class='tag'>英文版</text>
+      <text class='tag'>日语版</text>
+      <text class='tag'>韩语版</text>
+      <text class='tag'>德语版</text>
+      <text class='tag'>自定义标签最多3个字</text>
+  </view>
+
+  <opt-btn bindclick="handleBtn" />
+</page>

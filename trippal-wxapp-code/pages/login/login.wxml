@@ -1,0 +1,25 @@
+<view class="login-page">
+
+<image src="/imgs/login_logo.png" class='log-img' />
+
+<view class="login-form">
+  <view class='form-item'>
+    <image class='icon-img' src="/imgs/tel_ico.png"/>
+    <input class='form-item__input' bindinput='inputPhone'  placeholder='11位手机号码' value="{{phone}}"/>
+  </view>
+  <view class='form-item'>
+    <view class='flex f-align-center'>
+      <image class='icon-img' src="/imgs/vercode_ico.png"/>
+      <input class='form-item__input' bindinput='inputSms' value="{{sms}}"  placeholder='手机验证码'/>
+    </view>
+    <text class='form-item__btn' bindtap='getSms'>{{downShow ? target : '获取验证码'}}</text>
+      <!-- <count-down target="{{6000}}" format="{{['秒']}}" /> -->
+    <!--  -->
+    
+  </view>
+</view>
+
+<text class="login-btn" bindtap='login'>登陆</text>
+
+
+</view>

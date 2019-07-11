@@ -1,0 +1,20 @@
+/* components/tabs/index.wxss */
+.tab {
+    height: 80rpx;
+    display: flex;
+    background: #ffffff;
+    border-bottom: 1px solid #ebe9e9;
+}
+.tab-item {
+    height: 100%;
+    line-height: 80rpx;
+    font-size: 32rpx;
+    color: #343434;
+    flex: 1;
+    text-align: center;
+}
+
+.tab-item--active{
+    color: #faf5f5;
+    background-color: #ff7b33;
+}

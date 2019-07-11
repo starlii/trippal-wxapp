@@ -1,0 +1,7 @@
+<!--components/search-input/index.wxml-->
+<view class="search-input">
+  <input class="search-input__inner" type="text" placeholder-class="srach-input__placeholder" confirm-type="search" placeholder='搜索景区或解说员名字' />
+  <view class='search-input__prefix'>
+    <image src='/imgs/search_ico.png' />
+  </view>
+</view>

@@ -1,0 +1,33 @@
+.record {
+  height: 124rpx;
+  padding: 38rpx 64rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #f6f6f6
+}
+.record-info {
+  display: flex;
+  align-items: center;
+}
+.record-grade{
+  width: 50rpx;
+  height: 50rpx;
+  background-color: #F6586E;
+  text-align: center;
+  line-height: 50rpx;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 28rpx;
+  font-weight: bold;
+}
+.record-author{
+  margin: 0 20rpx 0 30rpx; 
+  width: 64rpx;
+  height: 64rpx;
+}
+
+.record-money {
+  font-size: 26rpx;
+  color: #666666;
+}

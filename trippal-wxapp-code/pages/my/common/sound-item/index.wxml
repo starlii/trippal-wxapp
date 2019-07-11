@@ -1,0 +1,40 @@
+<view class='sound'>
+  <view class='sound-info'>
+    <view class='img-content' bindtap='handlerPlay'>
+      <image src="/imgs/pic.png" class="sound-img"/>
+      <image src="{{isPlay ? '/imgs/pause.png' : '/imgs/play.png'}}" class="opt-img" />
+    </view>
+    <view class='sound-detail'>
+      <text class='sound-title'>世界广场</text>
+      <text class='sound-time'>00:00/2:18</text>
+    </view>
+  </view>
+
+  <view style='display: flex'>
+     <view class='opt'>
+       <image src="/imgs/rerecord_bt.png" class="icon-img--middle" />
+       <text class="mtop-10">重录</text>
+     </view>
+     <view class='opt'>
+       <image src="/imgs/delete_bt.png" class="icon-img--middle" />
+       <text class="mtop-10">删除</text>
+     </view>
+  </view>
+</view>
+<van-transition show="{{isPlay}}">
+  <view class='play'>
+    <view class='play-item'>
+      <image class='play-img' src="/imgs/record_bt1.png" style="width: 54rpx;height: 54rpx" />
+      <text class='play-text'>重录</text>
+    </view>
+    <view class='play-item'>
+      <image src="/imgs/rerecording_pause_bt.png" style="width:64rpx; height: 64rpx" />
+      <text class='play-text'>06:50</text>
+    </view>
+    <view class='play-item'>
+      <image src="/imgs/finish_bt.png" style="width: 54rpx;height: 54rpx" />
+      <text class='play-text'>完成</text>
+    </view>
+  </view>   
+</van-transition>
+

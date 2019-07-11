@@ -1,0 +1,20 @@
+/* components/field-picker/index.wxss */
+
+.picker {
+  padding: 10px 15rpx;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ebedf0;
+}
+
+.field-label {
+  display: inline-block;
+  width: 150rpx;
+  text-align: left;
+}
+.field-show {
+  margin-left: 20rpx;
+}

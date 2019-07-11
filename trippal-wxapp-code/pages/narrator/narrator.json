@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "narrator-item": "/components/narrator-item/index"
+  }
+}

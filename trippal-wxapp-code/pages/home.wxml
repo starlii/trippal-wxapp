@@ -1,0 +1,17 @@
+<!--pages/home.wxml-->
+<view class="container">
+  <view class="home-content">
+    <image class="home-image" src="{{ IMAGE_ADDR + '7fa169ff5f4777a731f984cb97f30b9f.jpg' }}" mode="cover"></image>
+    <view class="gap"></view>
+    <!--view class="home-btn">
+      <button class="def-btn" hover-class="def-btn-hover" bindtap="clearCache">手动清理真机缓存</button>
+    </view-->
+    <view wx:if="{{ !hasUserInfo }}" class="home-btn">
+      <button class="def-btn" hover-class="def-btn-hover" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">请您授权开始我们的故事</button>
+    </view>
+    <view wx:if="{{ unknownType }}" class="error">对不起，您还不能登录平台</view>
+    <view class="gap"></view>
+    <view class="primary">©领头羊™团队倾情奉献</view>
+    <view class="primary">麻雀虽小，五脏俱全</view>
+  </view>
+</view>

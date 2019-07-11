@@ -1,0 +1,15 @@
+.btn-context {
+  padding: 60rpx 24rpx 60rpx;
+  display: flex;
+  background-color: #f6f6f6;
+}
+
+.btn-context .btn {
+  flex: 1;
+  height: 72rpx;
+  text-align: center;
+  line-height: 72rpx;
+  border-radius: 36px;
+  background-color: #268dfe;
+  color: #ffffff;
+}

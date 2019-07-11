@@ -1,0 +1,28 @@
+/* pages/authen/authen.wxss */
+.authen {
+  background-color: #f8f8f8;
+  height: 100vh;
+}
+.field-label {
+  display: inline-block;
+  width: 150rpx;
+  text-align: left;
+}
+.field-show {
+  margin-left: 20rpx;
+}
+.field-textarea {
+  padding: 10px 15rpx;
+  background-color: #fff;
+  height: 100rpx;
+  border-top: 1px solid #ebedf0;
+}
+.authen-textarea {
+  padding-left: 40rpx;
+  height: 100rpx;
+}
+.field-item {
+  padding: 10px 15rpx;
+  background-color: #fff;
+  border-bottom: 1px solid #ebedf0
+}

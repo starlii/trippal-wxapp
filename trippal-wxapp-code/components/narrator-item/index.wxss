@@ -1,0 +1,81 @@
+.narrator {
+  background-color: #ffffff;
+  padding: 20rpx 24rpx;
+  display: flex;
+  border-bottom: 2px solid #f6f6f6;
+}
+.narrator__img {
+  width: 145rpx;
+  height: 170rpx;
+}
+.narrator__info {
+  margin-left: 15rpx;
+  display: flex;
+  flex-direction: column;
+  flex: 1
+}
+.narrator__name {
+  font-size: 30rpx;
+  color: #343434;
+  margin-right: 12rpx;
+  font-weight: bold;
+}
+.narrator__tag {
+  border: 1px solid #ff6633;
+  border-radius: 18rpx;
+  font-size: 22rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  padding: 0 15rpx;
+  color: #ff6633;
+}
+.album {
+  font-size: 26rpx;
+  color: #575353;
+}
+.album-cell {
+  display: flex;
+  align-items: center;
+}
+.album-info {
+  font-size: 20rpx;
+  color: #817b7b;
+  margin-right: 24rpx;
+}
+.narrator__opt {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.narrator__opt .button{
+  width: 140rpx;
+  height: 44rpx;
+  line-height: 44rpx;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 21rpx;
+  font-size: 24rpx;
+  display: inline-block
+}
+.narrator__opt .opt__try {
+  background-color: #42b7fd;
+  margin-right: 20rpx;
+}
+.narrator__opt .opt__buy {
+  background-color: #42a3fd;
+}
+
+.icon-img{
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 5rpx;
+}
+.flex {display: flex;}
+.mb-10{margin-bottom: 10rpx}
+.mb-15{margin-bottom: 15rpx}
+
+.narrator__money {
+  font-size: 30rpx;
+  color: #ff7b33;
+  font-weight: bold
+}

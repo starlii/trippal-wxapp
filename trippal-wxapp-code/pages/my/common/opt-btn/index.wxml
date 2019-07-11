@@ -1,0 +1,3 @@
+  <view class='btn-context'>
+    <text class='btn' bindtap='handlerBtn'>{{btnInfo}}</text>
+  </view>

@@ -1,0 +1,23 @@
+<template name="scenic-item">
+  <view class='scenic' bindtap="handleScenic" data-title="{{zoneName}}">
+    <image class='scenic__img' src="{{IMAGE_ADDR + ''+ strVal1}}" />
+    <view class='scenic__info'>
+      <text class='scenic__title'>{{zoneName}}</text>
+      <view class="scenic__base">
+        <view class="base__item">
+          <image class='icon-img' src='/imgs/explain1.png' />
+          <text>讲解点</text>
+          <text class="scenic_num">40个</text>
+        </view>
+        <view class='base__item'>
+          <image class='icon-img' src='/imgs/listeners1.png' />
+          2万
+        </view>
+        <view class='base__item'>
+          <image class='icon-img' src='/imgs/buyer1.png' />
+          1.8千
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

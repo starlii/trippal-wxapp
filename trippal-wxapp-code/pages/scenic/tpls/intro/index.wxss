@@ -1,0 +1,20 @@
+.intro {
+    background-color: #ffffff;
+}
+.intro .title{
+    font-size: 28rpx;
+    color: #343434;
+    margin-bottom: 20rpx;
+}
+.intro .message{
+    font-size: 24rpx;
+    color: #666666;
+}
+
+.intro .message text {
+    margin-bottom: 15rpx;
+}
+
+.intro-item {
+    padding: 24rpx;
+}

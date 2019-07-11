@@ -1,0 +1,19 @@
+/* pages/index/tpls/cell-tile/index.wxss */
+.cell-title {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  height: 72rpx;  
+  padding-left: 24rpx;
+  border: 2rpx solid #f6f6f6;
+}
+.title {
+  font-size: 32rpx;
+  color: #ff7b33;
+  margin-left: 20rpx;
+}
+.cell-title image {
+  width: 32rpx;
+  height: 32rpx;
+}

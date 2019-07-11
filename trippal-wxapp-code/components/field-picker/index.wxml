@@ -1,0 +1,13 @@
+<!--components/field-picker/index.wxml-->
+<picker class='picker' bindchange="bindPickerChange" value="{{value}}" range="{{array}}">
+      <view class="flex f-between">
+        <view class='flex'>
+          <view class='field-label'> 
+          <text wx:if="{{required}}" class="orange">*</text>
+            {{label}}
+          </view> 
+          <text class="{{array[index] ? 'field-show' : 'field-show info'}}">{{array[index] || placeholder}}</text>
+        </view>
+        <van-icon name="arrow" />
+      </view>
+    </picker>

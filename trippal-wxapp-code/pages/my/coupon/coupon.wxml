@@ -1,0 +1,7 @@
+<view>
+  <van-transition show="{{ show }}">
+  内容
+</van-transition>
+
+<button bindtap='handlerShow'>动画</button>
+</view>

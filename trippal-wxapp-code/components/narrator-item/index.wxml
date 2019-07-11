@@ -1,0 +1,33 @@
+
+<view class="narrator" bindtap="handleItem">
+  <image class='narrator__img' src="{{ IMAGE_ADDR + '30f335445ac365b3b7bc632a48f5e7ba.jpg' }}" />
+  <view class="narrator__info">
+    <view class="mb-10">
+      <text class="narrator__name">张小游</text>
+      <text wx:if="{{isAlbum}}" class="narrator__tag">景区五星讲解员</text>
+    </view>
+    <text class="album mb-10">好声音陪您游世界之窗</text>
+    <view class="flex mb-15">
+      <view class="album-cell">
+        <image class="icon-img" src='/imgs/listeners2.png' />
+        <text class="album-info">26万人收听</text>
+      </view>
+      <view class="album-cell">
+        <image class="icon-img" src='/imgs/buyer2.png' />
+        <text class="album-info">26万人收听</text>
+      </view>
+      <view class="album-cell">
+        <image class="icon-img" src='/imgs/explain2.png' />
+        <text class="album-info">26万人收听</text>
+      </view>
+    </view>
+    <view class="narrator__opt">
+      <text class="narrator__money" wx:if="{{showMoney}}">￥23</text>
+     <view>
+       <text wx:if="{{!disable}}" class="opt__try button" catchtap='handlePlay'>{{status ? '暂停' : '试听'}}</text>
+      <text wx:if="{{!disable}}" class="opt__buy button" catchtap='handleBuy'>购买</text>
+       <text wx:if="{{isManage}}" class="opt__buy button" catchtap='handleManage'>语音管理</text>
+     </view>
+    </view>
+  </view>
+</view>

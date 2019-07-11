@@ -1,0 +1,40 @@
+
+.scenic {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 20rpx 24rpx; 
+  border-bottom: 2px solid #f6f6f6;
+}
+.scenic .scenic__img {
+  width: 100%;
+  height: 280rpx;
+}
+.scenic__info {
+  padding-top: 20rpx;
+  display: flex;
+  justify-content: space-between
+}
+.scenic__title {
+  font-size: 28rpx;
+  color: #343434;
+  max-width: 300rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.scenic__info .scenic__base {
+  display: flex;
+}
+
+.base__item {
+  display: flex;
+  align-items: center;
+  margin-left: 24rpx;
+  font-size: 20rpx;
+  color: #666666;
+}
+.base__item .scenic_num {
+  color: #ff7b33;
+}

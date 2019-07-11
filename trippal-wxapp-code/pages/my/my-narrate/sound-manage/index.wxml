@@ -1,0 +1,15 @@
+<page>
+  <view class='cell'></view>
+
+  <van-tabs>
+    <van-tab title="待审核·6"></van-tab>
+    <van-tab title="已通过·4"></van-tab>
+    <van-tab title="未通过·4"></van-tab>
+  </van-tabs>
+
+  <sound-item />
+  <sound-item />
+  <sound-item />
+
+  <opt-btn bindclick="handlerBtn" btnInfo="添加景点解说"/>
+</page>

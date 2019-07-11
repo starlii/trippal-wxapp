@@ -1,0 +1,36 @@
+<template name="comment-item">
+  <view class='comment-list'>
+        <view class='flex f-between f-align-center'>
+          <view class='flex f-align-center'>
+            <image src="{{ IMAGE_ADDR + '46a1e5865e6fdf95d20bf029b04cf252.jpg' }}" class='avator-img' />
+            <text class='ml-20 mr-20'>小魔力</text>
+            <image src="/imgs/shang1.png" class='icon-img' />
+          </view>
+          <van-rate color="#fe7b33" readonly value="{{ 5 }}" />
+        </view>
+        <view class='regular mt-20'>
+          讲解生动，有趣，条理清晰，简单易懂，结合人文事迹， 整体非常好， 是个非常优秀的讲解员。
+        </view>
+        <view class='comment-item_imgs'>
+          <image src="{{ IMAGE_ADDR + 'e9589676ab892f8cba6ccf0e77b0074d.jpg' }}" />
+          <image src="{{ IMAGE_ADDR + 'e9589676ab892f8cba6ccf0e77b0074d.jpg' }}" />
+          <image src="{{ IMAGE_ADDR + 'e9589676ab892f8cba6ccf0e77b0074d.jpg' }}" />
+          <image src="{{ IMAGE_ADDR + 'e9589676ab892f8cba6ccf0e77b0074d.jpg' }}" />
+          <image src="{{ IMAGE_ADDR + 'e9589676ab892f8cba6ccf0e77b0074d.jpg' }}" />
+        </view>
+        <view class='flex f-between f-align-center mt-30'>
+            <text class='regular'>2019-04-30  11:53:20</text>
+            <view>
+              <text class='mr-5'>10</text>
+              <image class='icon-img' src="/imgs/good.png" />
+            </view>
+        </view>
+
+        <view class="reply">
+          <view class='mini2 regular comment-text'>
+            <text class='mini2 text-color'>张小游</text>回复： 谢谢你的光顾, 您的肯定, 我会努力加油, 争取越做越好。
+            <text class='triangle'></text>
+          </view>
+        </view>
+  </view>
+</template>

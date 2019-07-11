@@ -1,0 +1,39 @@
+<import src="../common/common-tpls/index.wxml" />
+
+<info-container height="350">
+  <view class='base_info'>
+      <view class='money'>
+        <text class='money-flag'>￥</text>
+        <text class='money_num'>4343223.56</text>
+      </view>
+      <text class='middle6 mb-40'>可用余额</text>
+      <view class='btn'>提现</view>
+  </view>
+</info-container>
+
+ <view class=' my-info__base'>
+    <view class='my-base-item'>
+      <text class="info-title">累计收入: </text>
+      <text class="info-intro">￥45434.34</text>
+    </view>
+    <view class='my-base-item'>
+      <text class="info-title">已提现:  </text>
+      <text class="info-intro">￥343434.00</text>
+    </view>
+  </view>
+
+  <van-tabs>
+    <van-tab title="提现榜单"></van-tab>
+    <van-tab title="收入明细"></van-tab>
+    <van-tab title="提现记录"></van-tab>
+  </van-tabs>
+
+  <block wx:for="{{recordList}}" wx:key="{{index}}" >
+      <template is="record" data="{{...item, index}}" />
+  </block>
+
+  <!-- <template is="record" data="{{...{index: 2}}}" />
+  <template is="record" data="{{...{index: 3}}}" />
+  <template is="record" data="{{...{index: 4}}}" />
+  <template is="record" data="{{...{index: 5}}}" />
+  <template is="record" data="{{...{index: 6}}}" /> -->

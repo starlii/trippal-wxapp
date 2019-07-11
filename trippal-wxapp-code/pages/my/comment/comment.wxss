@@ -1,0 +1,5 @@
+/* pages/comment/comment.wxss */
+
+.tab-active-class {
+  color: #ff976a
+}

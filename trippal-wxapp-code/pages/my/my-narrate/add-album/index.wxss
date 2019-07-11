@@ -1,0 +1,30 @@
+/* pages/my/my-narrate/add-album/index.wxss */
+.tagList {
+  background-color: #ffffff;
+  padding: 0 45rpx 36rpx;
+}
+.tag{
+  display: inline-block;
+  width: 146rpx;
+  height:52rpx;
+  line-height: 52rpx;
+  text-align: center;
+  background-color: #f2f2f2;
+  border-radius: 6px;
+  font-size: 26rpx;
+  margin-bottom: 20rpx;
+}
+.tag.active {
+  background: #42b7fd;
+  color: #ffffff;
+}
+.tag+.tag{
+  margin-left: 26rpx;
+}
+.tag:nth-child(4n+1){
+  margin-left: 0
+}
+.tag:last-of-type{
+  width: 318rpx;
+  color: #666666;
+}

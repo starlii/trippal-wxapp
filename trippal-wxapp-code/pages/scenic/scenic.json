@@ -1,0 +1,14 @@
+{
+  "usingComponents": {
+    "tabs": "/components/tabs/index",
+    "narrator-item": "/components/narrator-item/index",
+    "van-tabs": "/vant-weapp/tabs/index",
+    "van-tab": "/vant-weapp/tab/index", 
+    "van-collapse": "/vant-weapp/collapse/index",
+    "van-collapse-item": "/vant-weapp/collapse-item/index",
+    "van-transition": "/vant-weapp/transition/index", 
+    "van-popup": "/vant-weapp/popup/index", 
+    "van-dialog": "/vant-weapp/dialog/index"
+  },
+  "navigationBarTextStyle": "white"
+}
